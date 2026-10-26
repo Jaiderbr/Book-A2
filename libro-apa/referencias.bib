@@ -1,0 +1,93 @@
+% =====================================================================
+% REFERENCIAS — biblatex-apa las ordena y formatea en APA 7 solas.
+% Solo aparecen en la lista las fuentes que citas en el texto.
+%
+% Consejos:
+%  - Autores: "Apellido, Nombre and Apellido, Nombre" (siempre "and").
+%  - Institución como autor: entre doble llave {{...}} para que no la parta.
+%  - Para que una palabra conserve mayúscula en el título: {Colombia}.
+%  - Si tiene DOI, ponlo sin "https://doi.org/".
+%  - Google Scholar, Zotero o Mendeley exportan en formato BibTeX.
+%
+% Las entradas con "Apellido" o "Título..." son EJEMPLOS: reemplázalas.
+% =====================================================================
+
+% --- Libro ---
+@book{apa2020,
+  author    = {{American Psychological Association}},
+  title     = {Publication manual of the {American} {Psychological} {Association}},
+  edition   = {7},
+  year      = {2020},
+  publisher = {American Psychological Association},
+  doi       = {10.1037/0000165-000},
+  langid    = {english}
+}
+
+% --- Libro (ejemplo) ---
+@book{apellido2023,
+  author    = {Apellido, Nombre and Segundo, Autora},
+  title     = {Título del libro en cursiva: subtítulo del libro},
+  edition   = {2},
+  year      = {2023},
+  publisher = {Editorial Universidad de la Amazonia}
+}
+
+% --- Artículo de revista con DOI (ejemplo) ---
+@article{autor2024,
+  author  = {Gómez, Ana and Investigador, Bruno and Docente, Carla},
+  title   = {Título del artículo con mayúscula solo al inicio},
+  journal = {Nombre de la Revista},
+  volume  = {12},
+  number  = {3},
+  pages   = {45--67},
+  year    = {2024},
+  doi     = {10.0000/ejemplo.2024.001}
+}
+
+% --- Informe de una institución (ejemplo) ---
+@report{dane2024,
+  author      = {{Departamento Administrativo Nacional de Estadística}},
+  shortauthor = {DANE},
+  title       = {Título del informe},
+  year        = {2024},
+  institution = {DANE},
+  url         = {https://www.dane.gov.co}
+}
+
+% --- Capítulo de libro editado (ejemplo) ---
+@incollection{capitulo2022,
+  author    = {Rojas, Daniel},
+  title     = {Título del capítulo},
+  editor    = {Editora, Elena},
+  booktitle = {Título del libro editado},
+  pages     = {10--30},
+  year      = {2022},
+  publisher = {Editorial}
+}
+
+% --- Tesis o trabajo de grado (ejemplo) ---
+@thesis{tesis2021,
+  author      = {Martínez, Fabián},
+  title       = {Título del trabajo de grado},
+  type        = {Tesis de maestría},
+  institution = {Universidad de la Amazonia},
+  year        = {2021},
+  url         = {https://repositorio.ejemplo.edu.co}
+}
+
+% --- Página web (ejemplo) ---
+@online{web2025,
+  author  = {Pérez, Gabriela},
+  title   = {Título de la página web},
+  date    = {2025-03-15},
+  organization = {Nombre del sitio web},
+  url     = {https://www.ejemplo.com}
+}
+
+% --- Ley o norma colombiana (ejemplo; completa con los datos reales) ---
+@misc{ley617,
+  author       = {{Congreso de la República de Colombia}},
+  title        = {Ley 617 de 2000},
+  date         = {2000},
+  howpublished = {Diario Oficial No. XX.XXX}
+}

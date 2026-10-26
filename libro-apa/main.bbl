@@ -1,0 +1,629 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{apa2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b29c48e2adfa8813d0821cd69be08ecb}{%
+           family={{American Psychological Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{fullhash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{fullhashraw}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{bibnamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorbibnamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authornamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorfullhash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorfullhashraw}{b29c48e2adfa8813d0821cd69be08ecb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{langid}{english}
+      \field{title}{Publication manual of the {American} {Psychological} {Association}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1037/0000165-000
+      \endverb
+    \endentry
+    \entry{apellido2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=75c8438d77d5849593361c7f3ad493f8}{%
+           family={Apellido},
+           familyi={A\bibinitperiod},
+           given={Nombre},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e2cf3233df188639c48b697eae3dc42}{%
+           family={Segundo},
+           familyi={S\bibinitperiod},
+           given={Autora},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Universidad de la Amazonia}%
+      }
+      \strng{namehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{fullhash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{fullhashraw}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{bibnamehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authorbibnamehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authornamehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authorfullhash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authorfullhashraw}{ad03ab28e877396a1ecf010df171fa65}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Título del libro en cursiva: subtítulo del libro}
+      \field{year}{2023}
+    \endentry
+    \entry{ley617}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8e9c8918df2f6e7135ef51eb86f868f}{%
+           family={{Congreso de la República de Colombia}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{fullhash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{fullhashraw}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{bibnamehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authorbibnamehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authornamehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authorfullhash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authorfullhashraw}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Diario Oficial No. XX.XXX}
+      \field{title}{Ley 617 de 2000}
+      \field{year}{2000}
+      \field{dateera}{ce}
+    \endentry
+    \entry{dane2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=57fa629724b5769c0ef034841eb2d6d3}{%
+           family={{Departamento Administrativo Nacional de Estadística}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=e949548a1c94237c2714130be28a14d3}{%
+           family={DANE},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {DANE}%
+      }
+      \strng{namehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{fullhash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{fullhashraw}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{bibnamehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{authorbibnamehash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{authornamehash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{authorfullhash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{authorfullhashraw}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{shortauthorbibnamehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{shortauthornamehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{shortauthorfullhash}{e949548a1c94237c2714130be28a14d3}
+      \strng{shortauthorfullhashraw}{e949548a1c94237c2714130be28a14d3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{Título del informe}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.dane.gov.co
+      \endverb
+      \verb{url}
+      \verb https://www.dane.gov.co
+      \endverb
+    \endentry
+    \entry{autor2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cc2280aa4948c6769ebe9f6763daaab2}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8df2b6f9139cc9db30696b4621b83e14}{%
+           family={Investigador},
+           familyi={I\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ae6be3db9ea21a5743906f98133320e}{%
+           family={Docente},
+           familyi={D\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7496481f5939bb8aaa6f1ab0c5e4d13a}
+      \strng{fullhash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{fullhashraw}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{bibnamehash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{authorbibnamehash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{authornamehash}{7496481f5939bb8aaa6f1ab0c5e4d13a}
+      \strng{authorfullhash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{authorfullhashraw}{c5417dd6aad6381da1ab63fa306be144}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nombre de la Revista}
+      \field{number}{3}
+      \field{title}{Título del artículo con mayúscula solo al inicio}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 67}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.0000/ejemplo.2024.001
+      \endverb
+    \endentry
+    \entry{tesis2021}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff3dfbd2b82b37377d9e77189cf9b303}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Fabián},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de la Amazonia}%
+      }
+      \strng{namehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{fullhash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{fullhashraw}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{bibnamehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authorbibnamehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authornamehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authorfullhash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authorfullhashraw}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Título del trabajo de grado}
+      \field{type}{Tesis de maestría}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://repositorio.ejemplo.edu.co
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ejemplo.edu.co
+      \endverb
+    \endentry
+    \entry{web2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc47eaffeed52a61318a1a2080f1af2d}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Nombre del sitio web}%
+      }
+      \strng{namehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{fullhash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{fullhashraw}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{bibnamehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authorbibnamehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authornamehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authorfullhash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authorfullhashraw}{dc47eaffeed52a61318a1a2080f1af2d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{3}
+      \field{title}{Título de la página web}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ejemplo.com
+      \endverb
+      \verb{url}
+      \verb https://www.ejemplo.com
+      \endverb
+    \endentry
+    \entry{capitulo2022}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02949629ee4652990c85e7988cb578b5}{%
+           family={Rojas},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=aa6ae022cb471169c02557db862eccf4}{%
+           family={Editora},
+           familyi={E\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial}%
+      }
+      \strng{namehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{fullhash}{02949629ee4652990c85e7988cb578b5}
+      \strng{fullhashraw}{02949629ee4652990c85e7988cb578b5}
+      \strng{bibnamehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authorbibnamehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authornamehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authorfullhash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authorfullhashraw}{02949629ee4652990c85e7988cb578b5}
+      \strng{editorbibnamehash}{aa6ae022cb471169c02557db862eccf4}
+      \strng{editornamehash}{aa6ae022cb471169c02557db862eccf4}
+      \strng{editorfullhash}{aa6ae022cb471169c02557db862eccf4}
+      \strng{editorfullhashraw}{aa6ae022cb471169c02557db862eccf4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Título del libro editado}
+      \field{title}{Título del capítulo}
+      \field{year}{2022}
+      \field{pages}{10\bibrangedash 30}
+      \range{pages}{21}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{apa2020}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b29c48e2adfa8813d0821cd69be08ecb}{%
+           family={{American Psychological Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{fullhash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{fullhashraw}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{bibnamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorbibnamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authornamehash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorfullhash}{b29c48e2adfa8813d0821cd69be08ecb}
+      \strng{authorfullhashraw}{b29c48e2adfa8813d0821cd69be08ecb}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{langid}{english}
+      \field{title}{Publication manual of the {American} {Psychological} {Association}}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1037/0000165-000
+      \endverb
+    \endentry
+    \entry{apellido2023}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=75c8438d77d5849593361c7f3ad493f8}{%
+           family={Apellido},
+           familyi={A\bibinitperiod},
+           given={Nombre},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e2cf3233df188639c48b697eae3dc42}{%
+           family={Segundo},
+           familyi={S\bibinitperiod},
+           given={Autora},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial Universidad de la Amazonia}%
+      }
+      \strng{namehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{fullhash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{fullhashraw}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{bibnamehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authorbibnamehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authornamehash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authorfullhash}{ad03ab28e877396a1ecf010df171fa65}
+      \strng{authorfullhashraw}{ad03ab28e877396a1ecf010df171fa65}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Título del libro en cursiva: subtítulo del libro}
+      \field{year}{2023}
+    \endentry
+    \entry{ley617}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a8e9c8918df2f6e7135ef51eb86f868f}{%
+           family={{Congreso de la República de Colombia}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{fullhash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{fullhashraw}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{bibnamehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authorbibnamehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authornamehash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authorfullhash}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \strng{authorfullhashraw}{a8e9c8918df2f6e7135ef51eb86f868f}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Diario Oficial No. XX.XXX}
+      \field{title}{Ley 617 de 2000}
+      \field{year}{2000}
+      \field{dateera}{ce}
+    \endentry
+    \entry{dane2024}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=57fa629724b5769c0ef034841eb2d6d3}{%
+           family={{Departamento Administrativo Nacional de Estadística}},
+           familyi={D\bibinitperiod}}}%
+      }
+      \name{shortauthor}{1}{}{%
+        {{un=0,uniquepart=base,hash=e949548a1c94237c2714130be28a14d3}{%
+           family={DANE},
+           familyi={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {DANE}%
+      }
+      \strng{namehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{fullhash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{fullhashraw}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{bibnamehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{authorbibnamehash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{authornamehash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{authorfullhash}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{authorfullhashraw}{57fa629724b5769c0ef034841eb2d6d3}
+      \strng{shortauthorbibnamehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{shortauthornamehash}{e949548a1c94237c2714130be28a14d3}
+      \strng{shortauthorfullhash}{e949548a1c94237c2714130be28a14d3}
+      \strng{shortauthorfullhashraw}{e949548a1c94237c2714130be28a14d3}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{shortauthor}
+      \field{labeltitlesource}{title}
+      \field{title}{Título del informe}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.dane.gov.co
+      \endverb
+      \verb{url}
+      \verb https://www.dane.gov.co
+      \endverb
+    \endentry
+    \entry{autor2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=cc2280aa4948c6769ebe9f6763daaab2}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8df2b6f9139cc9db30696b4621b83e14}{%
+           family={Investigador},
+           familyi={I\bibinitperiod},
+           given={Bruno},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ae6be3db9ea21a5743906f98133320e}{%
+           family={Docente},
+           familyi={D\bibinitperiod},
+           given={Carla},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7496481f5939bb8aaa6f1ab0c5e4d13a}
+      \strng{fullhash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{fullhashraw}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{bibnamehash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{authorbibnamehash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{authornamehash}{7496481f5939bb8aaa6f1ab0c5e4d13a}
+      \strng{authorfullhash}{c5417dd6aad6381da1ab63fa306be144}
+      \strng{authorfullhashraw}{c5417dd6aad6381da1ab63fa306be144}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nombre de la Revista}
+      \field{number}{3}
+      \field{title}{Título del artículo con mayúscula solo al inicio}
+      \field{volume}{12}
+      \field{year}{2024}
+      \field{pages}{45\bibrangedash 67}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.0000/ejemplo.2024.001
+      \endverb
+    \endentry
+    \entry{tesis2021}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ff3dfbd2b82b37377d9e77189cf9b303}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Fabián},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidad de la Amazonia}%
+      }
+      \strng{namehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{fullhash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{fullhashraw}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{bibnamehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authorbibnamehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authornamehash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authorfullhash}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \strng{authorfullhashraw}{ff3dfbd2b82b37377d9e77189cf9b303}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Título del trabajo de grado}
+      \field{type}{Tesis de maestría}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://repositorio.ejemplo.edu.co
+      \endverb
+      \verb{url}
+      \verb https://repositorio.ejemplo.edu.co
+      \endverb
+    \endentry
+    \entry{web2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=dc47eaffeed52a61318a1a2080f1af2d}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Gabriela},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{organization}{1}{%
+        {Nombre del sitio web}%
+      }
+      \strng{namehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{fullhash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{fullhashraw}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{bibnamehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authorbibnamehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authornamehash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authorfullhash}{dc47eaffeed52a61318a1a2080f1af2d}
+      \strng{authorfullhashraw}{dc47eaffeed52a61318a1a2080f1af2d}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{15}
+      \field{month}{3}
+      \field{title}{Título de la página web}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ejemplo.com
+      \endverb
+      \verb{url}
+      \verb https://www.ejemplo.com
+      \endverb
+    \endentry
+    \entry{capitulo2022}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=02949629ee4652990c85e7988cb578b5}{%
+           family={Rojas},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=aa6ae022cb471169c02557db862eccf4}{%
+           family={Editora},
+           familyi={E\bibinitperiod},
+           given={Elena},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Editorial}%
+      }
+      \strng{namehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{fullhash}{02949629ee4652990c85e7988cb578b5}
+      \strng{fullhashraw}{02949629ee4652990c85e7988cb578b5}
+      \strng{bibnamehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authorbibnamehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authornamehash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authorfullhash}{02949629ee4652990c85e7988cb578b5}
+      \strng{authorfullhashraw}{02949629ee4652990c85e7988cb578b5}
+      \strng{editorbibnamehash}{aa6ae022cb471169c02557db862eccf4}
+      \strng{editornamehash}{aa6ae022cb471169c02557db862eccf4}
+      \strng{editorfullhash}{aa6ae022cb471169c02557db862eccf4}
+      \strng{editorfullhashraw}{aa6ae022cb471169c02557db862eccf4}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Título del libro editado}
+      \field{title}{Título del capítulo}
+      \field{year}{2022}
+      \field{pages}{10\bibrangedash 30}
+      \range{pages}{21}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

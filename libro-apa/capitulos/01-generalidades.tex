@@ -1,0 +1,110 @@
+%----------------------------------------------------------------------------------------
+%	CAPÍTULO 1
+%	Este capítulo trae ejemplos de todo lo que necesitas en APA (citas, tablas,
+%	figuras, citas largas, recuadros). Úsalo como guía y reemplaza el contenido.
+%----------------------------------------------------------------------------------------
+
+\chapter{Generalidades}
+
+Texto introductorio del capítulo. En APA cada párrafo empieza con sangría de 1,27 cm; para un párrafo nuevo basta con dejar una línea en blanco en el código. \lipsum[1]
+
+%------------------------------------------------
+
+\section{Cómo citar en APA}
+
+Las citas se generan solas a partir de \texttt{referencias.bib}:
+
+\begin{itemize}
+\item Cita narrativa: \textcite{apa2020} establece las normas de esta edición.
+\item Cita parentética: las normas se actualizaron en su séptima edición \parencite{apa2020}.
+\item Con número de página: \parencite[p.~45]{apellido2023}.
+\item Varias fuentes a la vez: \parencite{apellido2023,autor2024}.
+\item Tres o más autores (sale \enquote{et al.} automáticamente): \textcite{autor2024}.
+\item Institución como autor: \parencite{dane2024}.
+\item Otros tipos de fuente (capítulo, tesis, web, ley): \parencite{capitulo2022,tesis2021,web2025,ley617}.
+\end{itemize}
+
+Para una cita textual corta (menos de 40 palabras) usa comillas: según \textcite[p.~12]{apellido2023}, \enquote{la cita textual va entre comillas y con página}.
+
+Las citas de 40 palabras o más van en bloque, con sangría y sin comillas:
+
+\begin{citalarga}
+Este es un ejemplo de cita en bloque. APA indica que las citas textuales de 40 palabras o más se presentan en un párrafo independiente, con sangría de 1,27 cm desde el margen izquierdo, sin comillas, y con la cita entre paréntesis al final, después del punto. \parencite[p.~171]{apa2020}
+\end{citalarga}
+
+%------------------------------------------------
+
+\section{Tablas en formato APA}
+
+Las tablas se mencionan en el texto antes de aparecer, por ejemplo: la Tabla~\ref{tab:ejemplo} resume los datos. El número va en negrita, el título en cursiva, ambos encima de la tabla; la nota va debajo.
+
+\begin{table}[htbp]
+\caption{Título de la tabla en cursiva y con mayúscula inicial}
+\label{tab:ejemplo}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} l c c}
+\toprule
+\textbf{Municipio} & \textbf{Indicador 1} & \textbf{Indicador 2}\\
+\midrule
+Municipio A & 0,32 & 56,2 \\
+Municipio B & 0,15 & 91,0 \\
+Municipio C & 0,09 & 29,6 \\
+\bottomrule
+\end{tabular*}
+\nota{Elaboración propia con datos de \textcite{dane2024}.}
+\end{table}
+
+%------------------------------------------------
+
+\section{Figuras en formato APA}
+
+Las figuras (gráficos, imágenes, diagramas, capturas de pantalla) siguen el mismo formato, como en la Figura~\ref{fig:ejemplo}.
+
+\begin{figure}[htbp]
+\caption{Título de la figura en cursiva}
+\label{fig:ejemplo}
+\centering
+\includegraphics[width=0.6\linewidth]{placeholder}
+\nota{Tomado de \textcite{autor2024}. Si la figura es propia, escribe \enquote{Elaboración propia}.}
+\end{figure}
+
+%------------------------------------------------
+
+\section{Subtítulos y listas}
+
+\subsection{Subtítulo de nivel 3}
+
+Los capítulos equivalen al nivel 1 de APA, las secciones (\verb|\section|) al nivel 2 y las subsecciones (\verb|\subsection|) al nivel 3.
+
+\nivelcuatro{Encabezado de nivel 4} Si necesitas un nivel más, usa \verb|\nivelcuatro{...}|: va en negrita, con sangría y en la misma línea del párrafo.
+
+\nivelcinco{Encabezado de nivel 5} Y \verb|\nivelcinco{...}| va en negrita cursiva.
+
+\subsection{Listas}
+
+\begin{enumerate}
+\item Primer elemento.
+\item Segundo elemento.
+\item Tercer elemento.
+\end{enumerate}
+
+%------------------------------------------------
+
+\section{Recuadros de la plantilla}
+
+La plantilla conserva los recuadros de colores del diseño original, ahora en español.
+
+\begin{definition}[Gestión pública]
+Escribe aquí la definición de un concepto clave del libro \parencite{apellido2023}.
+\end{definition}
+
+\begin{example}[Nombre del ejemplo]
+Texto de un ejemplo práctico.
+\end{example}
+
+\begin{exercise}
+Una pregunta o actividad para el lector.
+\end{exercise}
+
+\begin{remark}
+Una nota o aclaración al margen del texto principal.
+\end{remark}

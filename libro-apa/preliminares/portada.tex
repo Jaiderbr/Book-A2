@@ -1,0 +1,24 @@
+%----------------------------------------------------------------------------------------
+%	PORTADA
+%	El título, subtítulo y autores salen de datos.tex.
+%	Para usar otra cubierta, reemplaza imagenes/azul/background.png
+%	(o la de verde) por tu imagen con el mismo nombre.
+%----------------------------------------------------------------------------------------
+
+\begingroup
+\thispagestyle{empty}
+\begin{tikzpicture}[remember picture,overlay]
+\node[anchor=north west,inner sep=0pt] at (current page.north west) {\includegraphics[width=\paperwidth,height=\paperheight]{background}};
+\node[anchor=north,fill=white,fill opacity=0.75,text opacity=1,inner sep=0.8cm,minimum width=\paperwidth] at ([yshift=-9cm]current page.north){%
+\begin{minipage}{0.8\paperwidth}\centering\sffamily\linespread{1.1}\selectfont
+{\color{principal}\rule{3cm}{3pt}}\par\vspace{14pt}
+{\fontsize{38}{44}\selectfont\bfseries\color{acento}\titulolibro\par}
+\vspace{14pt}
+{\Large \subtitulolibro\par}
+\vspace{22pt}
+{\large\bfseries \begin{tabular}{@{}c@{}}\autoresportada\end{tabular}\par}
+\end{minipage}};
+\end{tikzpicture}
+\vfill
+\endgroup
+\cleardoublepage

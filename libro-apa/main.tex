@@ -1,0 +1,106 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Libro de investigación — plantilla en español con normas APA 7
+%
+% Diseño basado en "The Legrand Orange Book" (LaTeXTemplates.com),
+% Mathias Legrand y Vel. Licencia CC BY-NC-SA 3.0.
+%
+% Compilación en Overleaf: pdfLaTeX (por defecto). Overleaf ejecuta biber
+% automáticamente para las referencias.
+%
+% Archivos:
+%   datos.tex          -> título, autores, ISBN, editorial...
+%   preliminares/*.tex -> portada, página legal, resumen, abstract, prólogo...
+%   capitulos/*.tex    -> un archivo por capítulo
+%   referencias.bib    -> fuentes bibliográficas (APA automático)
+%   estructura.tex     -> diseño y formato APA (normalmente no se toca)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt,fleqn]{book} % APA: 12 pt
+
+% Color del libro: escribe azul o verde
+\newcommand{\tema}{azul}
+
+\input{estructura}
+\input{datos}
+\hypersetup{pdftitle={\titulolibro}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	PRELIMINARES (numeración romana)
+%----------------------------------------------------------------------------------------
+
+\frontmatter
+
+\input{preliminares/portada}
+\input{preliminares/portadilla}
+\input{preliminares/pagina-legal}
+\input{preliminares/presentacion}
+
+% Tabla de contenido y listas
+\chapterimage{chapter_head_2}
+\pagestyle{empty}
+\tableofcontents
+\cleardoublepage
+\listoftables     % Borra esta línea si el libro no tiene tablas
+\cleardoublepage
+\listoffigures    % Borra esta línea si el libro no tiene figuras
+\cleardoublepage
+\pagestyle{fancy}
+
+\input{preliminares/resumen}
+\input{preliminares/abstract}
+\input{preliminares/prologo}
+\input{preliminares/agradecimientos}
+
+%----------------------------------------------------------------------------------------
+%	CUERPO DEL LIBRO (numeración arábiga)
+%----------------------------------------------------------------------------------------
+
+\mainmatter
+
+% Parte opcional: descomenta para agrupar capítulos en partes
+%\part{Título de la parte}
+
+\chapterimage{chapter_head_2}
+\input{capitulos/01-generalidades}
+
+\chapterimage{chapter_head_1}
+\input{capitulos/02-desarrollo}
+
+\chapterimage{chapter_head_2}
+\input{capitulos/03-resultados}
+
+\chapterimage{chapter_head_1}
+\input{capitulos/04-conclusiones}
+
+%----------------------------------------------------------------------------------------
+%	REFERENCIAS (APA 7: orden alfabético, sangría francesa)
+%----------------------------------------------------------------------------------------
+
+\chapterimage{chapter_head_2}
+\chapter*{Referencias}
+\addcontentsline{toc}{chapter}{Referencias}
+\markboth{\sffamily\normalsize\bfseries Referencias}{\sffamily\normalsize Referencias}
+\printbibliography[heading=none]
+
+%----------------------------------------------------------------------------------------
+%	APÉNDICES (opcionales; APA los llama Apéndice A, B...)
+%----------------------------------------------------------------------------------------
+
+%\appendix
+%\chapterimage{chapter_head_1}
+%\chapter{Instrumento de recolección de datos}
+%Contenido del apéndice.
+
+%----------------------------------------------------------------------------------------
+%	ÍNDICE ALFABÉTICO (opcional; marca palabras en el texto con \index{palabra})
+%----------------------------------------------------------------------------------------
+
+%\cleardoublepage
+%\phantomsection
+%\setlength{\columnsep}{0.75cm}
+%\addcontentsline{toc}{chapter}{Índice alfabético}
+%\printindex
+
+\end{document}
